@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: AGENT_POOL
+pool: AGENT_POOL
 
 steps:
 - script: print('hello world')
