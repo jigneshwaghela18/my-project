@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: AGENT_POOL
+pool: DEFAULT
 
 steps:
 - script: print('hello world')
